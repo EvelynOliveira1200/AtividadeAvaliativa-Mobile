@@ -1,11 +1,11 @@
 import { Image } from 'expo-image'
-import { View, Text, TextInput, FlatList } from 'react-native'
+import { SafeAreaView, View, Text, TextInput, FlatList } from 'react-native'
 
 export default function Laura (){
     return(
-        <View style={styles.container}>
-            <Text>Hello World</Text>
-        </View>
+        <SafeAreaView style={styles.container}>
+            <Text style={styles.title}>Hello World</Text>
+        </SafeAreaView>
     )
 }
 
@@ -14,4 +14,10 @@ const styles = StyleSheet.create({
         flex: 1,
         gap: 20,
     },
+
+    title: {
+        fontWeight: "bold",
+        fontSize: 20,
+        color: "#5e3a27"
+    }
 })
