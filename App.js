@@ -5,7 +5,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import AnaBeatriz from "./pages/AnaBeatriz/AnaBeatriz";
 import Evelyn from "./pages/Evelyn/Evelyn";
 import Giovanna from "./pages/Giovanna/Giovanna";
-import Isabella from "./pages/Isabella/Isabela";
+import Isabella from "./pages/Isabella/Isabella";
 import Laura from "./pages/Laura/Laura";
 
 import Icon from "react-native-vector-icons/Ionicons";
